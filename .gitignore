@@ -1,0 +1,23 @@
+# General
+.DS_Store
+.env
+*.log
+
+# Python / FastAPI Backend
+__pycache__/
+*.pyc
+venv/
+env/
+
+# It is good practice to NOT upload large model/data files.
+# If you need them in the repo, remove the lines below.
+backend/models/
+backend/scalers/
+backend/stock_data_csv/
+
+# PHP / Laravel Frontend
+frontend/vendor/
+frontend/node_modules/
+frontend/public/build/
+frontend/storage/*.key
+frontend/storage/logs/
